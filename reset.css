@@ -1,0 +1,96 @@
+/* Meyer's Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Corrige a exibição no IE e Edge */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Corrige a fonte e o tamanho em alguns navegadores */
+body {
+  line-height: 1;
+}
+
+/* Remove a borda do hyperlink do IE */
+a {
+  border: none;
+}
+
+/* Corrige o espaçamento do bloco em alguns navegadores */
+ol, ul {
+  list-style: none;
+}
+
+/* Corrige o estilo da fonte nas tags do tipo 'blockquote' e 'q' em alguns navegadores */
+blockquote, q {
+  quotes: none;
+}
+
+/* Corrige a quebra de página no IE 10 e versões anteriores */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Corrige a cor do plano de fundo, mostrando a borda de seleção em alguns navegadores */
+/* Adaptação do Box Sizing: Border Box para todos os elementos */
+* {
+  box-sizing: border-box;
+}
+
+/* Adaptação do Box Sizing: Content Box para os elementos específicos */
+/* Adaptação do Box Sizing: Border Box para os elementos específicos */
+/* Adaptação do Box Sizing: Border Box para as células das tabelas */
+/* Adaptação do Box Sizing: Border Box para os elementos 'fieldset' */
+/* Adaptação do Box Sizing: Border Box para os elementos do tipo 'progress' */
+/* Adaptação do Box Sizing: Border Box para os elementos do tipo 'hr' */
+input[type="checkbox"],
+input[type="radio"],
+input[type="search"] {
+  box-sizing: border-box;
+}
+
+/* Adaptação do Box Sizing: Border Box para as caixas de sombra do Firefox */
+/* Adaptação do Box Sizing: Border Box para o elemento 'details' no Firefox */
+/* Adaptação do Box Sizing: Border Box para os elementos 'summary' no Firefox */
+/* Adaptação do Box Sizing: Border Box para os elementos 'progress' no Firefox */
+/* Adaptação do Box Sizing: Border Box para os elementos 'meter' no Firefox */
+/* Adaptação do Box Sizing: Border Box para os elementos 'hr' no Firefox */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+/* Corrige a quebra de página no IE 11 e versões anteriores */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* IE 10 e IE 11 */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /* IE 11 */
+  ol, ul {
+    list-style: none;
+  }
+}
