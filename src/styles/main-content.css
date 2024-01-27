@@ -278,7 +278,7 @@
     padding: 16px;
     position: relative;
     transition: background-color 0.3s ease;
-    width: 100%;
+    width: 25%;
 }
 
 .artist-card:hover {
@@ -338,7 +338,7 @@
 .play .fa-play {
     position: absolute;
     right: 10px;
-    top: 120px;
+    top: 220px;
     padding: 18px;
     background-color: #1db954;
     border-radius: 100%;
