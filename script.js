@@ -26,8 +26,8 @@ function displayResults(result) {
 searchInput.addEventListener('input', function(){
     const searchTerm = searchInput.value.toLowerCase();
     if(searchTerm === ''){
-        resultPlaylist.classList.add('hidden');
-        resultArtists.classList.remove('hidden');
+        resultPlaylist.classList.remove('hidden');
+        resultArtists.classList.add('hidden');
         return;
     }
 

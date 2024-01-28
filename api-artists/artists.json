@@ -6,6 +6,10 @@
       { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4" },
       { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
       { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
-      { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" }
+      { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" },
+      { "id": 8, "name": "Imagine Dragons", "genre": "Rock", "urlImg": "https://cd1.taquilla.com/data/images/t/c2/imagine-dragons.jpg" },
+      { "id": 9, "name": "Twenty One Pilots", "genre": "Rock", "urlImg": "https://redefined.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/06/16114642/twentyonepilots_CreditAshleyOsborn-1281x801.jpg" },
+      { "id": 10, "name": "Maroon 5", "genre": "Pop", "urlImg": "https://www.latercera.com/resizer/ZrfET-NqG8CbYzDAAwLoasmF-TQ=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/MAHILFBJNVGSJHUM6ZWG4XEKWE.jpg" },
+      { "id": 11, "name": "Post Malone", "genre": "Hip Hop", "urlImg": "https://express-images.franklymedia.com/4458/sites/3/2019/04/24220536/Post-2019.jpg" }
     ]
   }
